@@ -175,7 +175,8 @@
       "will-change",
       "cursor",
       "user-select"
-    ]
+    ],
+    "import-notation": "url"
   }
 }
 
