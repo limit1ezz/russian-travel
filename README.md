@@ -1,23 +1,35 @@
-# Проект: Путешествие по России
+## Name:
 
-### Обзор
-* Интро
-* Figma
-* Картинки
+[Russian Travel](https://limit1ezz.github.io/russian-travel)
 
-**Интро**
+## Links:
 
-Здесь будет проект о путешествии по России.
-В Фигме мы разместили макет, в котором видно, как проект должен выглядеть на самых распространённых разрешениях экранов.
-Этот проект сложнее предыдущих, постарайтесь уделить ему больше времени.
+- [Link to the Website](https://limit1ezz.github.io/russian-travel)
+- [Link to the Figma Project](<https://www.figma.com/file/dPNh4aDsI5qo4dtwrKIPEn/Sprint-3_-Russia-_-desktop-%2B-mobile-(Copy)?node-id=62863%3A634>)
 
-**Figma**
+## Functionality:
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+- Adaptive markup with BEM methodology in mind;
+- There is a Normalize.css;
+- CSS is written using the BEM folder structure;
+- The project is hosted on github pages;
+- Images is optimized;
+- Stylelint is used for CSS linting;
 
-**Картинки**
+## Stack description:
 
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
+- [HTML5]
+- [CSS]
+- [adaptive]
+- [semantic]
+- [BEM]
+- [github_pages]
+- [flex]
+- [grid]
 
-Удачи!
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm run live`
+
