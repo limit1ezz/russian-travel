@@ -5,19 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/index.css">
+    <script defer src="./js/main.js"></script>
     <title>Путешествие по России</title>
   </head>
 
-  <body>
-    <div class="root">
+  <body class="root">
+    <div class="wrapper">
 
       <header class="page-header">
+        <div class="container">
+          <div class="page-header__inner">
+
+            <a class="logo">
+              <img class="logo__image" src="./images/header-logo.svg"
+                alt="Логотип
+                сайта">
+            </a>
+
+            <div class="page-header__lang-links">
+              <button class="page-header__lang-link
+                page-header__lang-link_active" id="ru">Ru</button>
+              <button class="page-header__lang-link" id="en">En</button>
+            </div>
+          </div>
+        </div>
+
       </header>
 
       <main class="page-content">
 
         <section class="lead">
-          <h1 class="lead__title">Hello World</h1>
+          <h1 class="lead__title"></h1>
         </section>
 
         <section class="intro">
@@ -34,6 +52,7 @@
       </main>
 
       <footer class="page-footer">
+        <p class="page-footer__copyright">© 2020. Впишите своё имя</p>
       </footer>
     </div>
   </body>

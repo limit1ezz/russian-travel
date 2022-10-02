@@ -1,0 +1,20 @@
+.page-header__lang-link {
+  margin: 0;
+  padding: 0 0 2px;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  color: inherit;
+  background: inherit;
+  border: none;
+  border-bottom: 1px solid transparent;
+  transition: opacity 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.page-header__lang-link:hover {
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+
