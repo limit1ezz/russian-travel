@@ -2,8 +2,10 @@
 @import url("../fonts/fonts.css");
 
 @import url("../blocks/root/root.css");
-@import url("../blocks/container/container.css");
 @import url("../blocks/wrapper/wrapper.css");
+
+@import url("../blocks/container/container.css");
+@import url("../blocks/container/_image/container_image.css");
 
 @import url("../blocks/logo/logo.css");
 @import url("../blocks/logo/__image/logo__image.css");
@@ -15,10 +17,11 @@
 @import url("../blocks/page-header/__lang-link/_active/page-header__lang-link_active.css");
 
 @import url("../blocks/lead/lead.css");
-@import url("../blocks/lead/__caption/lead__caption.css");
-@import url("../blocks/lead/__image/lead__image.css");
-@import url("../blocks/lead/__subtitle/lead__subtitle.css");
 @import url("../blocks/lead/__title/lead__title.css");
+@import url("../blocks/lead/__subtitle/lead__subtitle.css");
+@import url("../blocks/lead/__image-box/lead__image-box.css");
+@import url("../blocks/lead/__image/lead__image.css");
+@import url("../blocks/lead/__caption/lead__caption.css");
 
 @import url("../blocks/intro/intro.css");
 @import url("../blocks/intro/__title/intro__title.css");

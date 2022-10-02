@@ -1,4 +1,10 @@
 .lead {
-  /* Lead Block */
+  padding-top: 48px;
+}
+
+@media screen and (min-width: 1280px) {
+  .lead {
+    padding-top: 56px;
+  }
 }
 
