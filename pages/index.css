@@ -12,9 +12,9 @@
 
 @import url("../blocks/page-header/page-header.css");
 @import url("../blocks/page-header/__inner/page-header__inner.css");
-@import url("../blocks/page-header/__lang-links/page-header__lang-links.css");
-@import url("../blocks/page-header/__lang-link/page-header__lang-link.css");
-@import url("../blocks/page-header/__lang-link/_active/page-header__lang-link_active.css");
+@import url("../blocks/page-header/__lang-btns/page-header__lang-btns.css");
+@import url("../blocks/page-header/__lang-btn/page-header__lang-btn.css");
+@import url("../blocks/page-header/__lang-btn/_active/page-header__lang-btn_active.css");
 
 @import url("../blocks/lead/lead.css");
 @import url("../blocks/lead/__title/lead__title.css");
