@@ -1,3 +1,6 @@
 .lead__image {
-  /* code */
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
+
