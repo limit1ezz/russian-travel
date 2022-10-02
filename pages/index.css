@@ -47,6 +47,8 @@
 @import url("../blocks/cover/__background/cover__background.css");
 
 @import url("../blocks/page-footer/page-footer.css");
-@import url("../blocks/page-footer/__copyright/page-footer__copyright.css");
+@import url("../blocks/page-footer/__inner/page-footer__inner.css");
+@import url("../blocks/page-footer/__links/page-footer__links.css");
 @import url("../blocks/page-footer/__link/page-footer__link.css");
+@import url("../blocks/page-footer/__copyright/page-footer__copyright.css");
 
