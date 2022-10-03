@@ -1,3 +1,19 @@
 .places__paragraph {
-  /* code */
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
 }
+
+.places__paragraph + .places__paragraph {
+  margin-top: 25px;
+}
+
+@media screen and (min-width: 1024px) {
+  .places__paragraph {
+    font-size: 18px;
+    line-height: 29px;
+  }
+}
+

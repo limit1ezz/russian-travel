@@ -1,0 +1,19 @@
+.places__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .places__inner {
+    gap: 73px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .places__inner {
+    gap: 80px;
+  }
+}
+
