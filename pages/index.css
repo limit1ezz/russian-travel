@@ -5,7 +5,6 @@
 @import url("../blocks/wrapper/wrapper.css");
 
 @import url("../blocks/container/container.css");
-@import url("../blocks/container/_image/container_image.css");
 
 @import url("../blocks/logo/logo.css");
 @import url("../blocks/logo/__image/logo__image.css");
@@ -50,4 +49,3 @@
 @import url("../blocks/page-footer/__links/page-footer__links.css");
 @import url("../blocks/page-footer/__link/page-footer__link.css");
 @import url("../blocks/page-footer/__copyright/page-footer__copyright.css");
-
