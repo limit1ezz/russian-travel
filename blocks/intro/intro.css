@@ -1,3 +1,19 @@
 .intro {
-  /* code */
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
+
+@media screen and (min-width: 768px) {
+  .intro {
+    padding-top: 88px;
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro {
+    padding-top: 92px;
+    padding-bottom: 92px;
+  }
+}
+
