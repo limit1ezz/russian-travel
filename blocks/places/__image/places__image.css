@@ -1,3 +1,13 @@
 .places__image {
-  /* code */
+  display: block;
+  width: 100vw;
+  max-height: 60vh;
+  object-fit: cover;
 }
+
+@media screen and (min-width: 768px) {
+  .places__image {
+    width: 100%;
+  }
+}
+
