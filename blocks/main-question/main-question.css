@@ -1,8 +1,9 @@
-.article {
+.main-question {
   width: 100%;
 }
 @media screen and (min-width: 1024px) {
-  .article {
+  .main-question {
     max-width: 690px;
   }
 }
+

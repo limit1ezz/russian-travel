@@ -1,7 +1,6 @@
 .place__image {
   display: block;
   width: 100vw;
-  max-height: 60vh;
   object-fit: cover;
 }
 
@@ -10,3 +9,4 @@
     width: 100%;
   }
 }
+
