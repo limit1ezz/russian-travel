@@ -1,0 +1,16 @@
+.place__website {
+  padding-right: 16px;
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: end;
+}
+
+@media screen and (min-width: 768px) {
+  .place__website {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}

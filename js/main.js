@@ -1,17 +1,19 @@
 (() => {
-  const languageBtns = document.querySelectorAll(".page-header__lang-btn");
+  const ru = document.querySelector("#ru");
+  const en = document.querySelector("#en");
 
-  function myFunction(e) {
-    document.documentElement.setAttribute("lang", e.target.id);
+  ru.addEventListener("click", () => {
+    if (en.classList.contains("lang-links__link_active")) {
+      en.classList.remove("lang-links__link_active");
+      ru.classList.add("lang-links__link_active");
+    }
+  });
 
-    languageBtns.forEach((btn) => {
-      btn.classList.remove("page-header__lang-btn_active");
-    });
-    e.target.classList.add("page-header__lang-btn_active");
-  }
-
-  languageBtns.forEach((btn) => {
-    btn.addEventListener("click", myFunction);
+  en.addEventListener("click", () => {
+    if (ru.classList.contains("lang-links__link_active")) {
+      ru.classList.remove("lang-links__link_active");
+      en.classList.add("lang-links__link_active");
+    }
   });
 })();
 

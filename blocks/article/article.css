@@ -1,0 +1,8 @@
+.article {
+  width: 100%;
+}
+@media screen and (min-width: 1024px) {
+  .article {
+    max-width: 690px;
+  }
+}

@@ -1,0 +1,24 @@
+.lang-links__link {
+  padding-bottom: 2px;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid transparent;
+  transition: opacity 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.lang-links__link:hover {
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 768px) {
+  .lang-links__link {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+

@@ -5,12 +5,3 @@
   flex-direction: column;
 }
 
-.wrapper .page-header,
-.wrapper .page-footer {
-  flex-shrink: 0;
-}
-
-.wrapper .page-content {
-  flex-grow: 1;
-}
-
