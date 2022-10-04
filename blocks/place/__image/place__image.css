@@ -1,12 +1,6 @@
 .place__image {
   display: block;
-  width: 100vw;
+  width: 100%;
   object-fit: cover;
-}
-
-@media screen and (min-width: 768px) {
-  .place__image {
-    width: 100%;
-  }
 }
 
